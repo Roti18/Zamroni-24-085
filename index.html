@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moch. Zamroni Fahreza || Teknik Informatika</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+      />
+      <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --bgColor: #080808;
+  --secondBgColor: #1b0000;
+  --textColor: white;
+  --mainColor: #fbff00;
+}
+html {
+  font-size: 60%;
+  overflow-x: hidden;
+  width: 100%;
+}
+body {
+  background: var(--bgColor);
+  color: var(--textColor);
+}
+section {
+  min-height: 100vh;
+  padding: 10rem 12%;
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+.home-content h1 {
+  font-size: 8rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  line-height: 1;
+}
+.home-content h3 {
+  font-size: 3.5rem;
+  margin: 1rem 0;
+  color: var(--mainColor);
+}
+.text {
+  font-size: 34px;
+  font-weight: 600;
+  min-width: 280px;
+  transition: 0.3s ease;
+}
+.text:hover{
+  color: white;
+  text-shadow: 0 0 8px white;
+}
+.text span {
+  transition: 0.3s ease;
+  color: white;
+}
+.text span:hover{
+  color: var(--mainColor);
+  text-shadow: 0 0 8px var(--mainColor);
+}
+.home-content p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.8;
+}
+.home-img img {
+  filter: brightness(0.7);
+  width: 45vh;
+  border: 2px solid var(--mainColor);
+  box-shadow: 0 0 15px var(--mainColor);
+  border-radius: 50%;
+  transition: 0.4s ease-in-out;
+}
+.home-img img:hover {
+  filter: brightness(1);
+  transform: scale(0.99)translateY(-1px);
+  box-shadow: 0 0 25px var(--mainColor), 0 0 70px var(--mainColor);
+}
+
+.social-icons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  padding: 1rem;
+  background: transparent;
+  border: 2px solid var(--mainColor);
+  border-radius: 50%;
+  color: var(--mainColor);
+  margin: 3rem 0.5rem;
+  transition: 0.3s ease;
+}
+.social-icons a:hover {
+  color: var(--textColor);
+  background-color: var(--mainColor);
+  transform: scale(1.2) translateY(-8px);
+  box-shadow: 0 0 25px var(--mainColor);
+}
+.btn {
+  display: inline-block;
+  padding: 1rem 3rem;
+  background: var(--mainColor);
+  box-shadow: 0 0 10px var(--mainColor);
+  border-radius: 3rem;
+  font-size: 1.8rem;
+  color: aliceblue;
+  border: 2px solid transparent;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: var(--mainColor);
+  transform: scale(1.1) translateY(-2px);
+  box-shadow: 0 0 25px var(--mainColor);
+}
+.btn a{
+  color: var(--bgColor);
+}
+footer {
+  padding: 25px;
+  margin-top: 20vh;
+  background-color: black;
+  color: white;
+  position: relative;
+  z-index: 50;
+}
+
+.foot {
+  text-align: center;
+  filter: brightness(0.5);
+}
+
+.copy {
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+  filter: brightness(0.8);
+}
+
+/* responsif */
+@media (max-width: 1080px) {
+  .home {
+    flex-direction: column-reverse;
+    margin: 5rem 0;
+    gap: 5rem;
+  }
+  .home-content {
+    align-items: center;
+    text-align: center;
+  }
+  .home-img img {
+    width: 52vw;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hallo<h1>
+        <h3 class="text">Saya <span>Moch. Zamroni Fahreza</span></h3>
+        <p>
+          Saya adalah mahasiswa baru Universitas Trunojoyo Madura Prodi Teknik Informatika dengan NIM 240411100085. Saya lahir di Sumenep pada tanggal 18 mei 2006 dan saya adalah seorang anak tunggal. Sekarang saya tinggal di Desa Karduluk, Kabupaten Pragaan, Kota Sumenep. Jika ada keperluan dengan saya bisa menghubungi akun sosial media saya yang ada di bawah. <br>Sekian Dan Terimakasih.
+        </p>
+
+        <div class="social-icons">
+          <a href="https://github.com/Roti18" target="_blank">
+            <i class="bx bxl-github"></i>
+          </a>
+          <a href="https://www.tiktok.com/@roti.ss" target="_blank">
+            <i class="bx bxl-tiktok"></i>
+          </a>
+          <a href="https://www.instagram.com/roti.co.id" target="_blank">
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/share/8SBf7pBEMKR9MYu8/?mibextid=qi2Om" target="_blank">
+            <i class='bx bxl-facebook'></i>
+          </a>
+        </div>
+
+        <div class="btn">
+          <a href="https://wa.me/+6283878345386">Hubungi Saya</a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="assets/me.jpg" alt="Foto Profil" />
+      </div>
+    </section>
+  </body>
+  <footer>
+    <div class="foot">
+      <a href="https://www.trunojoyo.ac.id/" target="_blank">
+        <img src="assets/utm.png" alt="Universitas Trunojoyo Madura" width="27px"/>
+      </a>
+      <a href="http://teknik.trunojoyo.ac.id/" target="_blank">
+        <img
+          src="assets/ft.png" alt="Fakultas Teknik Universitas Trunojoyo Madura" width="32px"/>
+      </a>
+      <a href="https://inferno2024.vercel.app/" target="_blank">
+        <img src="assets/inferno.jpg" alt="Inferno 2024" width="28px" />
+      </a>
+      <a href="https://www.triplec.or.id/" target="_blank">
+        <img src="assets/TRIPLE-C.png" alt="Inferno 2024" width="25px" />
+      </a>
+    </div>
+    <p class="copy">&copy; 2024 Zamroni || All Rights Reserved.</p>
+  </footer>
+</html>
